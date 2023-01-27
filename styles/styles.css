@@ -26,6 +26,13 @@ h3 {
     font-size: 14px;
 }
 
+.container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
 .cards {
     background-color: white;
     width: 20rem;
@@ -33,23 +40,18 @@ h3 {
     box-shadow: 32px 40px 50px 58px #0000001a;
     border-radius: 10px;
     padding: 30px;
-
-
 }
 
 .person {
-    margin: 0px;
+    margin-left: 10px;
     padding: 15px 5px 7px 5px;
     display: flex;
 }
-
-
 
 .btn-center {
     position: relative;
     text-align: center;
 }
-
 
 button {
     text-decoration: none;
@@ -73,13 +75,6 @@ button:hover {
 
 .person-age {
     color: #6a6a6a;
-}
-
-.container {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    margin-top: 4rem;
 }
 
 .all-person-list {
