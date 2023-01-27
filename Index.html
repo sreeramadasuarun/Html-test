@@ -6,145 +6,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
-    <style>
-        * {
-            margin: 0px;
-            padding: 0px;
-            box-sizing: border-box;
-            font-family: 'Poppins', sans-serif;
-        }
-
-
-
-        body {
-            background-color: rgb(249, 140, 178);
-        }
-
-        img {
-            border-radius: 50%;
-            width: 40px;
-            height: 40px;
-            margin-right: 15px;
-            float: left;
-        }
-
-        h3 {
-            font-weight: 500;
-        }
-
-        .text {
-            font-size: 14px;
-        }
-
-        .container {
-            background-color: white;
-            width: 20rem;
-            height: auto;
-            box-shadow: 32px 40px 50px 58px #0000001a;
-            border-radius: 10px;
-            padding: 30px;
-
-
-        }
-
-        .list {
-            margin: 0px;
-            padding: 15px 5px 7px 5px;
-            display: flex;
-        }
-
-
-
-        .center {
-            position: relative;
-            text-align: center;
-        }
-
-        button {
-            background-image: linear-gradient(to right, rgb(252, 98, 255), rgb(252, 114, 162));
-            text-decoration: none;
-            border: none;
-            color: white;
-            box-shadow: 5px 10px 8px #6a6a6a63;
-            cursor: pointer;
-            border-radius: 5px;
-            font-size: 14px;
-            width: 100%;
-            height: 3rem;
-        }
-
-        .grey {
-            color: #6a6a6a;
-        }
-
-        .popup {
-            display: grid;
-            justify-content: center;
-            align-items: center;
-            margin-top: 4rem;
-        }
-
-        .listall {
-            margin: 15px 0px 20px 0px;
-        }
-    </style>
-
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
 
 <body>
-    <div class="popup">
-        <div class="container">
-
+    <div class="container">
+        <div class="cards">
             <h3>24 birthdays today</h3>
 
+            <div class="all-person-list">
 
-            <div class="listall">
-                <div class="list">
-                    <img src="https://www.edology.com/uploads/media/sulu-700x450/00/1720-blog-why-coding-is-so-important-for-IT-jobs-s.jpg?v=2-0"
-                        alt="no image">
+                <div class="person">
+                    <div class="person-image">
+                        <img src="./Assets/image1.webp" alt="person image">
+                    </div>
                     <div class="text">
-                        <p>Bertie Yates</p>
-                        <p class="grey">29 years</p>
+                        <p class="person-name">Bertie Yates</p>
+                        <p class="person-age">29 years</p>
                     </div>
                 </div>
-                <div class="list">
-                    <img src="https://www.edology.com/uploads/media/sulu-700x450/00/1720-blog-why-coding-is-so-important-for-IT-jobs-s.jpg?v=2-0"
-                        alt="no image">
-                    <div class="text">
-                        <p>Bertie Yates</p>
-                        <p class="grey">29 years</p>
-                    </div>
-                </div>
-                <div class="list">
-                    <img src="https://www.edology.com/uploads/media/sulu-700x450/00/1720-blog-why-coding-is-so-important-for-IT-jobs-s.jpg?v=2-0"
-                        alt="no image">
-                    <div class="text">
-                        <p>Bertie Yates</p>
-                        <p class="grey">29 years</p>
-                    </div>
-                </div>
-                <div class="list">
-                    <img src="https://www.edology.com/uploads/media/sulu-700x450/00/1720-blog-why-coding-is-so-important-for-IT-jobs-s.jpg?v=2-0"
-                        alt="no image">
-                    <div class="text">
-                        <p>Bertie Yates</p>
-                        <p class="grey">29 years</p>
-                    </div>
-                </div>
-                <div class="list">
-                    <img src="https://www.edology.com/uploads/media/sulu-700x450/00/1720-blog-why-coding-is-so-important-for-IT-jobs-s.jpg?v=2-0"
-                        alt="no image">
-                    <div class="text">
-                        <p>Bertie Yates</p>
-                        <p class="grey">29 years</p>
-                    </div>
-                </div>
+
             </div>
 
-            <div class="center">
-                <button>View all</button>
-            </div>
+
+
+
+            <button class="btn-center">View all</button>
+
 
         </div>
     </div>
